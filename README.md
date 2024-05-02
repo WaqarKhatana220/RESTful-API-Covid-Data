@@ -23,12 +23,12 @@ Implemented JWT (JSON Web Tokens) for secure user authentication, allowing contr
 ## Security Measures
 While not all OWASP top 10 security risks were pertinent to this project, attention was paid to adopting industry best practices and mitigating potential risks that real-world applications might face. Here are the security measures implemented in alignment with the OWASP top 10 guidelines:
 
-## Secure Transmission: Configured the backend to operate over HTTPS to ensure secure data transmission.
-Broken Access Control: Managed Broken Access Control by permitting authorized users to conduct CRUD operations exclusively. Authentication was enforced using Json Web Tokens (JWTs).
-Injection Attacks: Guarded against injection attacks by validating user inputs through middleware and employing parameterized queries (bcrypt.hashSync) for password hashing, thus thwarting SQL injection threats.
-Cryptographic Failures: Addressed cryptographic vulnerabilities by employing bcrypt for password hashing, enhancing the security of stored user credentials and mitigating potential data breaches.
-Broken Authentication: Implemented JWT-based authentication (jsonwebtoken) with middleware (verifyToken) to validate token authenticity and restrict access to protected routes, thereby fortifying authentication mechanisms against unauthorized access.
-Security Misconfiguration: The application was configured to include appropriate security headers (e.g., X-Content-Type-Options, X-XSS-Protection) by default (via Express), mitigating common security misconfiguration pitfalls.
+- Secure Transmission: Configured the backend to operate over HTTPS to ensure secure data transmission.
+- Broken Access Control: Managed Broken Access Control by permitting authorized users to conduct CRUD operations exclusively. Authentication was enforced using Json Web Tokens (JWTs).
+- Injection Attacks: Guarded against injection attacks by validating user inputs through middleware and employing parameterized queries (bcrypt.hashSync) for password hashing, thus thwarting SQL injection threats.
+- Cryptographic Failures: Addressed cryptographic vulnerabilities by employing bcrypt for password hashing, enhancing the security of stored user credentials and mitigating potential data breaches.
+- Broken Authentication: Implemented JWT-based authentication (jsonwebtoken) with middleware (verifyToken) to validate token authenticity and restrict access to protected routes, thereby fortifying authentication mechanisms against unauthorized access.
+- Security Misconfiguration: The application was configured to include appropriate security headers (e.g., X-Content-Type-Options, X-XSS-Protection) by default (via Express), mitigating common security misconfiguration pitfalls.
 
 ## API Documentation
 Swagger UI: Integrated Swagger UI to automatically generate comprehensive API documentation, aiding in seamless exploration and usage of API endpoints.
