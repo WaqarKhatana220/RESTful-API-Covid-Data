@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS or editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+
+# IDE and editor configuration
+.idea/
+*.iml
+.idea_modules/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled binary addons (e.g., node-sass, bcrypt)
+build/ 
+*.build/
+*.compiled
+
+# Test coverage output
+coverage/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Distribution build directory
+dist/
+
+# npm debug log
+npm-debug.log*
+
+# Yarn logs
+yarn-error.log
+yarn-debug.log
