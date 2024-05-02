@@ -2,6 +2,9 @@
 Implement a Restful API (Any framework/language) that provides a few CRUD endpoints for the
  sample data listed above – focus on authentication/authorization, security (OWSAP top 10), documentation (Swagger), and testing. You can keep the data in memory or a file (CSV or JSON file) without setting up a database. 
 
+# Data
+Please note that the [latest](https://github.com/owid/covid-19-data/tree/master/public/data/latest) data was taken from the provided repository since it was smaller in size and had the same form and structure, and contained only the latest value for each location and metric
+
 # Project Overview
 
 As part of the technical challenge presented by Auxin Security, I developed a robust RESTful API using Node.js and Express.js. The primary objectives were to provide CRUD functionality for a sample dataset while emphasizing authentication/authorization, adhering to security best practices, documenting the API using Swagger, and ensuring thorough testing.
